@@ -12,7 +12,7 @@ BASE_URL = "https://orca-ai-admin.github.io/app-legal"
 APPS = [
     ("ADHDLog", "adhdlog", "ADHD symptom and focus tracking", True, True),
     ("AnxietyKit", "anxietykit", "anxiety management and mood tracking", True, True),
-    ("AsthmaLog", "ashmalog", "asthma symptom and trigger tracking", True, True),
+    ("AsthmaLog", "asthmalog", "asthma symptom and trigger tracking", True, True),
     ("BPLog", "bplog", "blood pressure monitoring and tracking", True, True),
     ("BabyLog", "babylog", "baby feeding, sleep, and growth tracking", True, True),
     ("BackLog", "backlog", "back pain and posture tracking", True, True),
