@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orca AI — Support</title>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #ffffff; --surface: #f9f9f9; --border: #e5e5e5;
+      --text: #1a1a1a; --muted: #666; --accent: #0066cc; --accent-dark: #004a99;
+      --radius: 8px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f0f; --surface: #1a1a1a; --border: #2e2e2e;
+        --text: #f0f0f0; --muted: #999; --accent: #4da6ff; --accent-dark: #80bdff;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.7;
+      font-size: 16px; padding: 0 1rem;
+    }
+    .container { max-width: 780px; margin: 0 auto; padding: 3rem 0 5rem; }
+    header { margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+    .app-tag {
+      display: inline-block; background: var(--accent); color: #fff;
+      font-size: .75rem; font-weight: 600; letter-spacing: .06em;
+      text-transform: uppercase; padding: .25rem .65rem; border-radius: 4px; margin-bottom: .75rem;
+    }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: .4rem; letter-spacing: -.02em; }
+    .meta { color: var(--muted); font-size: .9rem; }
+    h2 { font-size: 1.1rem; font-weight: 600; margin: 0 0 .6rem; }
+    p { margin-bottom: 1rem; }
+    ul { margin: .4rem 0 1rem 1.4rem; }
+    li { margin-bottom: .5rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; color: var(--accent-dark); }
+    .section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem 1.6rem; margin-bottom: 1.25rem; }
+    .contact-box {
+      background: var(--accent); color: #fff; border-radius: var(--radius);
+      padding: 2rem; text-align: center; margin-bottom: 2rem;
+    }
+    .contact-box h2 { color: #fff; font-size: 1.3rem; margin-bottom: .5rem; }
+    .contact-box a { color: #fff; font-size: 1.1rem; font-weight: 600; text-decoration: underline; }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem; }
+    footer a { color: var(--muted); }
+    @media (max-width: 600px) { h1 { font-size: 1.5rem; } .container { padding: 2rem 0 4rem; } }
+  </style>
+
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="app-tag">Orca AI</div>
+    <h1>Support</h1>
+    <p class="meta">We're here to help — for all 46 Orca AI iOS apps</p>
+  </header>
+
+  <div class="contact-box">
+    <h2>📬 Contact Us</h2>
+    <p style="margin-bottom:.75rem; color:rgba(255,255,255,.85);">Email is the best way to reach us. We aim to respond within 1–2 business days.</p>
+    <a href="mailto:orca.ai.admin@gmail.com">orca.ai.admin@gmail.com</a>
+  </div>
+
+  <div class="section">
+    <h2>Frequently Asked Questions</h2>
+
+    <h2 style="margin-top:1.5rem; font-size:.95rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted);">Purchases & Subscriptions</h2>
+
+    <p><strong>How do I restore my purchases?</strong><br>
+    Open the app and go to <strong>Settings → Restore Purchases</strong>. Make sure you're signed into the same Apple ID used for the original purchase. If the button doesn't appear, try signing out and back into your Apple ID in iOS Settings.</p>
+
+    <p><strong>How do I cancel my subscription?</strong><br>
+    Subscriptions are managed entirely by Apple. To cancel:</p>
+    <ul>
+      <li>Open <strong>iOS Settings → Apple ID → Subscriptions</strong></li>
+      <li>Find the app subscription and tap <strong>Cancel Subscription</strong></li>
+      <li>You'll retain access until the end of the current billing period</li>
+    </ul>
+
+    <p><strong>I was charged but can't access premium features.</strong><br>
+    Try restoring purchases (see above). If the issue persists, contact us at <a href="mailto:orca.ai.admin@gmail.com">orca.ai.admin@gmail.com</a> with your Apple ID email and we'll investigate.</p>
+
+    <p><strong>Can I get a refund?</strong><br>
+    Refunds are handled by Apple. Visit <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> to request a refund through Apple's official process.</p>
+  </div>
+
+  <div class="section">
+    <h2>Data &amp; Privacy</h2>
+
+    <p><strong>What data does the app collect?</strong><br>
+    Only the data you choose to enter. All data is stored <strong>locally on your device</strong> using SwiftData / Core Data. No data is ever transmitted to external servers. See the app-specific privacy policy below for details.</p>
+
+    <p><strong>Does the app use third-party analytics or tracking?</strong><br>
+    No. Our apps contain no third-party analytics SDKs, advertising frameworks, or behavioral tracking of any kind.</p>
+
+    <p><strong>How do I delete my data?</strong><br>
+    Go to <strong>Settings</strong> within the app and use the data deletion option. Alternatively, deleting the app from your device permanently removes all associated data.</p>
+
+    <p><strong>Is my data backed up to iCloud?</strong><br>
+    Only if you have enabled iCloud sync (where available). iCloud sync uses Apple's CloudKit and is governed by Apple's privacy policy. Orca AI does not have access to your iCloud data.</p>
+  </div>
+
+  <div class="section">
+    <h2>Technical Issues</h2>
+
+    <p><strong>The app is crashing or not loading.</strong><br>
+    Try these steps:
+    <ul>
+      <li>Force-quit the app and reopen it</li>
+      <li>Restart your device</li>
+      <li>Check for an app update in the App Store</li>
+      <li>If the issue persists, contact us with your device model and iOS version</li>
+    </ul></p>
+
+    <p><strong>My data disappeared after updating the app.</strong><br>
+    App updates should not affect your data. If you believe data was lost, contact us immediately at <a href="mailto:orca.ai.admin@gmail.com">orca.ai.admin@gmail.com</a> with your device details.</p>
+  </div>
+
+  <div class="section">
+    <h2>Privacy Policies</h2>
+    <p>Individual privacy policies for each app:</p>
+    <ul>
+      <li><a href="../adhdlog/privacy/">ADHD Log Privacy Policy</a></li>
+      <li><a href="../anxietykit/privacy/">Anxiety Kit Privacy Policy</a></li>
+      <li><a href="../asthmalog/privacy/">Asthma Log Privacy Policy</a></li>
+      <li><a href="../babylog/privacy/">Baby Log Privacy Policy</a></li>
+      <li><a href="../backlog/privacy/">Back Log Privacy Policy</a></li>
+      <li><a href="../bplog/privacy/">BP Log Privacy Policy</a></li>
+      <li><a href="../breathwork/privacy/">Breath Work Privacy Policy</a></li>
+      <li><a href="../caffeinelog/privacy/">Caffeine Log Privacy Policy</a></li>
+      <li><a href="../chroniclog/privacy/">Chronic Log Privacy Policy</a></li>
+      <li><a href="../coldplunge/privacy/">Cold Plunge Privacy Policy</a></li>
+      <li><a href="../cpaplog/privacy/">CPAP Log Privacy Policy</a></li>
+      <li><a href="../cycletrack/privacy/">Cycle Track Privacy Policy</a></li>
+      <li><a href="../dailyaffirm/privacy/">Daily Affirm Privacy Policy</a></li>
+      <li><a href="../drinkwise/privacy/">Drink Wise Privacy Policy</a></li>
+      <li><a href="../eczemalog/privacy/">Eczema Log Privacy Policy</a></li>
+      <li><a href="../fertilitylog/privacy/">Fertility Log Privacy Policy</a></li>
+      <li><a href="../fibromyalgialog/privacy/">Fibromyalgia Log Privacy Policy</a></li>
+      <li><a href="../flashdeck/privacy/">Flash Deck Privacy Policy</a></li>
+      <li><a href="../glucoselog/privacy/">Glucose Log Privacy Policy</a></li>
+      <li><a href="../gratitudelog/privacy/">Gratitude Log Privacy Policy</a></li>
+      <li><a href="../habitstack/privacy/">Habit Stack Privacy Policy</a></li>
+      <li><a href="../hydrolog/privacy/">Hydro Log Privacy Policy</a></li>
+      <li><a href="../ibslog/privacy/">IBS Log Privacy Policy</a></li>
+      <li><a href="../intervaltimer/privacy/">Interval Timer Privacy Policy</a></li>
+      <li><a href="../journaldark/privacy/">Journal Dark Privacy Policy</a></li>
+      <li><a href="../macrolog/privacy/">Macro Log Privacy Policy</a></li>
+      <li><a href="../mealplan/privacy/">Meal Plan Privacy Policy</a></li>
+      <li><a href="../migrainelog/privacy/">Migraine Log Privacy Policy</a></li>
+      <li><a href="../nicofree/privacy/">Nico Free Privacy Policy</a></li>
+      <li><a href="../noisebox/privacy/">Noise Box Privacy Policy</a></li>
+      <li><a href="../petlog/privacy/">Pet Log Privacy Policy</a></li>
+      <li><a href="../pillremind/privacy/">Pill Remind Privacy Policy</a></li>
+      <li><a href="../plantmom/privacy/">Plant Mom Privacy Policy</a></li>
+      <li><a href="../pomodoroflow/privacy/">Pomodoro Flow Privacy Policy</a></li>
+      <li><a href="../posturelog/privacy/">Posture Log Privacy Policy</a></li>
+      <li><a href="../readinglist/privacy/">Reading List Privacy Policy</a></li>
+      <li><a href="../rheumalog/privacy/">Rheuma Log Privacy Policy</a></li>
+      <li><a href="../skinlog/privacy/">Skin Log Privacy Policy</a></li>
+      <li><a href="../soberstreak/privacy/">Sober Streak Privacy Policy</a></li>
+      <li><a href="../stepup/privacy/">Step Up Privacy Policy</a></li>
+      <li><a href="../subsync/privacy/">Sub Sync Privacy Policy</a></li>
+      <li><a href="../thyroidlog/privacy/">Thyroid Log Privacy Policy</a></li>
+      <li><a href="../tinnituslog/privacy/">Tinnitus Log Privacy Policy</a></li>
+      <li><a href="../tiptracker/privacy/">Tip Tracker Privacy Policy</a></li>
+      <li><a href="../vocabboost/privacy/">Vocab Boost Privacy Policy</a></li>
+      <li><a href="../workoutlog/privacy/">Workout Log Privacy Policy</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>© 2026 Orca AI &nbsp;·&nbsp; <a href="mailto:orca.ai.admin@gmail.com">orca.ai.admin@gmail.com</a> &nbsp;·&nbsp; <a href="../index.html">All Apps</a></p>
+  </footer>
+</div>
+</body>
+</html>
